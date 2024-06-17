@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/main.ts'),
-      name: 'lvlup-js-utils',
-      fileName: 'lvlup-js-utils'
+      name: 'toju-basic-utils',
+      fileName: 'toju-basic-utils'
     },
     sourcemap: true,
     target: 'es6',
