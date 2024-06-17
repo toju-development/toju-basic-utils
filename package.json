@@ -8,7 +8,7 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "check:types": "tsc --noEmit",
-    "test": "vitest",
+    "test": "vitest run",
     "test:coverage": "vitest --coverage",
     "test:watch": "vitest --watch",
     "test:mutation": "stryker run",
