@@ -1,14 +1,20 @@
 {
+  "author": "Pablo Martinez",
+  "license": "MIT",
   "name": "toju-basic-utils",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/toju-basic-utils.js",
   "types": "./dist/main.d.ts",
-  "export": {
+  "exports": {
     "." : {
       "import": "./dist/toju-basic-utils.js",
-      "export": "./dist/toju-basic-utils.js"
+      "require": "./dist/toju-basic-utils.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toju-development/toju-basic-utils"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -47,5 +53,11 @@
     "vite-plugin-dts": "^3.9.1",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^1.6.0"
-  }
+  },
+  "keywords": [
+    "js utils",
+    "debounce",
+    "throttle",
+    "deep clone"
+  ]
 }
