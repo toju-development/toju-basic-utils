@@ -8,7 +8,7 @@
 
 ## Proposed Changes
 
-[List the specific changes made to this pull request].si
+[List the specific changes made to this pull request].
 
 ## Screenshots (if applicable).
 
