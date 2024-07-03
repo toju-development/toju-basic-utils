@@ -2,14 +2,21 @@
   "author": "Pablo Martinez",
   "license": "MIT",
   "name": "toju-basic-utils",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
-  "main": "./dist/toju-basic-utils.js",
-  "types": "./dist/main.d.ts",
+  "main": "dist/toju-basic-utils.umd.cjs",
+  "module": "dist/toju-basic-utils.js",
+  "types": "dist/main.d.ts",
   "exports": {
     "." : {
-      "import": "./dist/toju-basic-utils.js",
-      "require": "./dist/toju-basic-utils.js"
+      "import": {
+        "types": "./dist/main.d.ts",
+        "default": "./dist/toju-basic-utils.js"
+      },
+      "require": {
+        "types": "./dist/main.d.ts",
+        "default": "./dist/toju-basic-utils.umd.cjs"
+      }
     }
   },
   "repository": {
